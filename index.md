@@ -4,22 +4,26 @@ layout: home
 
 hero:
   name: "优易搭操作手册"
-  text: "优易搭"
-  tagline: My great project tagline
+  text: ""
+  tagline: 让天下没有难做的应用
+  image:
+    src: /logo2.png
+    alt: logo
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 快速开始
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
+      text: 官网
+      link: https://youyida.work
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: ⚡
+    title: 所见即所得
+    details: 每一次编辑，都实时呈现最终效果，更加高效精准。
+  - icon: 💯
+    title: 组件丰富
+    details: 满足您在不同场景下的需求。
+  - icon: 👏
+    title: 全部免费
+    details: 所有功能和服务完全免费开放！无需支付任何费用。
 ---
-
