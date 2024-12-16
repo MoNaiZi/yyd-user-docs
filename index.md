@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "优易搭操作手册"
+  name: "优易搭操作文档"
   text: ""
   tagline: 让天下没有难做的应用
   image:
@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /markdown-examples
+      link: /help
     - theme: alt
       text: 官网
       link: https://youyida.work
@@ -25,5 +25,5 @@ features:
     details: 满足您在不同场景下的需求。
   - icon: 👏
     title: 全部免费
-    details: 所有功能和服务完全免费开放！无需支付任何费用。
+    details: 所有功能和组件完全免费开放！无需支付任何费用。
 ---
