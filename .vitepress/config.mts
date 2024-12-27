@@ -10,13 +10,21 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '文档', link: '/help' }
     ],
+    outline: {
+      label: '本页目录'
+    },
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
     sidebar: [
       {
         text: '新手入门',
         collapsed: false,
         items: [
-          { text: '快速上手', link: '/docs/base/get-started' },
-          { text: '优易搭能帮我做什么', link: '/docs/base/get-started' },
+          { text: '优易搭能帮我做什么', link: '/docs/base/blurb' },
+          { text: '5分钟快速上手', link: '/docs/base/get-started' },
+
           { text: '遇到问题怎么办', link: '/docs/base/problem' }
         ]
       },
@@ -35,12 +43,12 @@ export default defineConfig({
         ]
       },
       {
-        text: '样式',
+        text: '组件样式',
         collapsed: false,
         items: []
       },
       {
-        text: '逻辑',
+        text: '逻辑交互',
         collapsed: false,
         items: []
       },
