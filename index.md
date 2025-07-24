@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /help
+      link: /docs/base/get-started.html
     - theme: alt
       text: 官网
       link: https://youyida.work
@@ -26,4 +26,7 @@ features:
   - icon: 👏
     title: 全部免费
     details: 所有功能和组件完全免费开放！无需支付任何费用。
+  - icon: 🚀
+    title: 支持多平台
+    details: H5,微信小程序，支付宝小程序,抖音小程序,以及其它小程序和APP
 ---

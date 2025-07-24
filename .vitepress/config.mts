@@ -11,7 +11,7 @@ export default defineConfig({
       { text: '文档', link: '/help' }
     ],
     outline: {
-      label: '本页目录'
+      label: '页面导航'
     },
     docFooter: {
       prev: '上一篇',
