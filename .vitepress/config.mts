@@ -24,7 +24,7 @@ export default defineConfig({
         items: [
           { text: '优易搭能帮我做什么', link: '/docs/base/blurb' },
           { text: '5分钟快速上手', link: '/docs/base/get-started' },
-
+          { text: 'AI 助手', link: '/docs/base/ai-helper' },
           { text: '遇到问题怎么办', link: '/docs/base/problem' }
         ]
       },
