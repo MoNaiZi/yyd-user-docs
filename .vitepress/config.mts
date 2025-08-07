@@ -1,9 +1,10 @@
 import { defineConfig } from 'vitepress'
 export default defineConfig({
+  base: '/docs/',
   title: "优易搭操作文档",
   description: "优易搭",
   head: [
-    ['link', { rel: 'icon', href: '/logo1.png', type: 'image/png' }],
+    ['link', { rel: 'icon', href: '/docs/logo1.png', type: 'image/png' }],
   ],
   themeConfig: {
     nav: [
@@ -23,47 +24,83 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '优易搭能帮我做什么', link: '/docs/base/blurb' },
-          { text: '5分钟快速上手', link: '/docs/base/get-started' },
+          {
+            text: '5分钟快速上手', link: '/docs/base/get-started',
+            // items: [
+            //   { text: '配置说明', link: '/guide/config' },
+            //   { text: '主题定制', link: '/guide/theme' }
+            // ]
+          },
           { text: 'AI 助手', link: '/docs/base/ai-helper' },
           { text: '遇到问题怎么办', link: '/docs/base/problem' }
-        ]
-      },
-      {
-        text: '界面',
-        collapsed: false,
-        items: [
-          { text: '功能概览', link: '/docs/base/overview' },
         ]
       },
       {
         text: '组件',
         collapsed: false,
         items: [
-          { text: '快速了解组件', link: '', }
+          {
+            text: '快速了解组件', link: '/docs/compoents/start',
+            items: [
+              { text: '组件类型', link: '' },
+              { text: '自定义组件', link: '/docs/compoents/customize', }
+            ]
+          },
+          { text: '绑定数据', link: '/docs/compoents/bind-data', },
         ]
       },
       {
-        text: '组件样式',
-        collapsed: false,
-        items: []
-      },
-      {
-        text: '逻辑交互',
-        collapsed: false,
-        items: []
-      },
-      {
         text: '模板',
-        collapsed: false,
+        collapsed: true,
+        items: [
+          { text: '简介', link: '/docs/template/start', },
+          // { text: '模板市场', link: '', },
+        ]
+      },
+      {
+        text: '页面',
+        collapsed: true,
+        items: [
+          { text: '功能概览', link: '/docs/base/overview' },
+          { text: '页面管理', link: '' },
+        ]
+      },
+
+      {
+        text: '数据中心',
+        collapsed: true,
+        items: [
+          { text: '页面数据', link: '', },
+          { text: '全局数据', link: '', },
+          { text: '数据仓库', link: '', },
+          { text: '缓存数据', link: '', }
+        ]
+      },
+      {
+        text: '网络接口',
+        collapsed: true,
         items: []
       },
+
       {
         text: '打包/导出',
         collapsed: false,
-        items: []
-      }
+        items: [
+          { text: '打包应用', link: '/docs/build/pack', },
+          { text: '导出源码打包', link: '/docs/build/export-code', }
+        ]
+      },
+      // {
+      //   text: '应用文件',
+      //   collapsed: false,
+      //   items: []
+      // }
     ],
-
+    notFound: {
+      title: '页面未找到',
+      quote: '',
+      linkText: '回到主页'
+    },
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
