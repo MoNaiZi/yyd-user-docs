@@ -3,13 +3,19 @@ export default defineConfig({
   base: '/docs/',
   title: "优易搭操作文档",
   description: "优易搭",
+  markdown: {
+    image: {
+      // 默认禁用；设置为 true 可为所有图片启用懒加载。
+      lazyLoading: true
+    }
+  },
   head: [
     ['link', { rel: 'icon', href: '/docs/logo1.png', type: 'image/png' }],
   ],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/help' }
+      // { text: '文档', link: '/help' }
     ],
     outline: {
       label: '页面导航'
@@ -41,12 +47,18 @@ export default defineConfig({
         items: [
           {
             text: '快速了解组件', link: '/docs/compoents/start',
+            // items: [
+            //   { text: '组件类型', link: '' },
+            //   { text: '自定义组件', link: '/docs/compoents/customize', }
+            // ]
+          },
+          {
+            text: '绑定数据', link: '/docs/compoents/bind-data',
             items: [
-              { text: '组件类型', link: '' },
-              { text: '自定义组件', link: '/docs/compoents/customize', }
+              { text: '添加数据', link: '/docs/data/start' },
+              // { text: '自定义组件', link: '/docs/compoents/customize', }
             ]
           },
-          { text: '绑定数据', link: '/docs/compoents/bind-data', },
         ]
       },
       {
@@ -66,16 +78,17 @@ export default defineConfig({
         ]
       },
 
-      {
-        text: '数据中心',
-        collapsed: true,
-        items: [
-          { text: '页面数据', link: '', },
-          { text: '全局数据', link: '', },
-          { text: '数据仓库', link: '', },
-          { text: '缓存数据', link: '', }
-        ]
-      },
+      // {
+      //   text: '数据中心',
+      //   collapsed: false,
+      //   items: [
+      //     { text: '数据中心是干嘛的？', link: '/docs/data/start', },
+      //     { text: '页面数据', link: '', },
+      //     { text: '全局数据', link: '', },
+      //     // { text: '数据仓库', link: '', },
+      //     { text: '缓存数据', link: '', }
+      //   ]
+      // },
       {
         text: '网络接口',
         collapsed: true,

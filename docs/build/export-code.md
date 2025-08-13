@@ -30,7 +30,7 @@ outline: deep
 ![](/public/export-code/no-appid-tips.png){ width=400 }
 
 <details>
-  <summary>（点击展开）如果出现 <span style="color: red;">项目 AppID 不能为空，请在该项目下的 manifest.json 中重新获取</span></summary>
+    <summary>（点击展开）如果出现 <span style="color: red;">项目 AppID 不能为空，请在该项目下的 manifest.json 中重新获取</span></summary>
 
 ::: warning 来到 manifest.json 点重新获取
 

@@ -66,13 +66,18 @@ outline: deep
   <img src="/public/compoents/attr.png" alt="图片" style="width: 350px; height: auto;" loading="lazy" />
   <div>
     <h5>数据绑定</h5>
-    <p style="margin-top:5px">数据绑定，就是让属性动起来！</p>
+    <p style="margin-top:5px;margin-bottom:5px">
+    数据绑定，就是让属性动起来！
+    <h5 >详细使用，请看下一篇：绑定数据</h5>
+    </p>
     <h5>指令绑定</h5>
     <p style="margin-top:5px;margin-bottom:0px;">两个指令分别是：</p>
     <p style="margin-top:5px">组件循环：重复生成多个。显示判断：什么时候显示。</p>
     <h5>重绘组件</h5>
-    <p  style="margin-top:5px">重新刷新当前组件</p>
-    <h4>详细使用，请看下一篇：绑定数据</h4>
+    <p  style="margin-top:5px">
+        当因为修改了样式或者属性导致组件出现错位的情况，就可以使用该功能重新刷新当前组件
+    </p>
+
   </div>
 </div>
 
