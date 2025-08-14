@@ -55,7 +55,7 @@ export default defineConfig({
           {
             text: '绑定数据', link: '/docs/compoents/bind-data',
             items: [
-              { text: '添加数据', link: '/docs/data/start' },
+              { text: '数据', link: '/docs/data/start' },
               // { text: '自定义组件', link: '/docs/compoents/customize', }
             ]
           },
