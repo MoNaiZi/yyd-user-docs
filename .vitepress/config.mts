@@ -73,8 +73,8 @@ export default defineConfig({
         text: '页面',
         collapsed: true,
         items: [
-          { text: '功能概览', link: '/docs/base/overview' },
-          { text: '页面管理', link: '' },
+          { text: '快速了解页面', link: '/docs/page/start' },
+          { text: '页面管理', link: '/docs/page/manage' },
         ]
       },
 
