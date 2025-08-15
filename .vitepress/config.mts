@@ -63,7 +63,7 @@ export default defineConfig({
       },
       {
         text: '模板',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: '简介', link: '/docs/template/start', },
           // { text: '模板市场', link: '', },
@@ -71,7 +71,7 @@ export default defineConfig({
       },
       {
         text: '页面',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: '快速了解页面', link: '/docs/page/start' },
           { text: '页面管理', link: '/docs/page/manage' },
@@ -91,16 +91,25 @@ export default defineConfig({
       // },
       {
         text: '网络接口',
-        collapsed: true,
-        items: []
+        collapsed: false,
+        items: [
+          { text: '快速了解网络接口', link: '/docs/httpApi/start' },
+          { text: '网络接口管理', link: '/docs/httpApi/manage' },
+        ]
       },
-
       {
         text: '打包/导出',
         collapsed: false,
         items: [
           { text: '打包应用', link: '/docs/build/pack', },
           { text: '导出源码打包', link: '/docs/build/export-code', }
+        ]
+      },
+      {
+        text: '其它',
+        collapsed: false,
+        items: [
+          { text: '快捷键', link: '/docs/other/shortcutkeys', },
         ]
       },
       // {
