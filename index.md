@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /docs/base/get-started.html
+      link: /docs/base/blurb.html
     - theme: alt
       text: 官网
       link: https://youyida.work

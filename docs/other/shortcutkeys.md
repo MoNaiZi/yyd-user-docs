@@ -12,6 +12,7 @@
 | Alt + F          | 指令绑定     |
 | Alt + Q          | 打开 AI 助手 |
 | Ctrl + S         | 保存         |
+| Delete           | 删除组件     |
 | Ctrl + C         | 复制组件     |
 | Ctrl + V         | 黏贴组件     |
 | Ctrl + X         | 剪切组件     |
