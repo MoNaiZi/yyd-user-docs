@@ -43,21 +43,21 @@ outline: deep
 在不同端可能表现不一样
 
 H5
-![](/public/page/H5.png){ width=350 }
+![](/public/page/H5.png){ width=250 }
 
 微信小程序，右上角会多一个胶囊按钮
-![](/public/page/微信小程序下的导航栏.png){ width=350 }
+![](/public/page/微信小程序下的导航栏.png){ width=250 }
 
 ### 自定义导航栏
 
 默认导航栏满足不了需求，就可以使用自定义导航栏
-![](/public/page/自定义导航栏示例.jpg){ width=350 }
+![](/public/page/自定义导航栏示例.jpg){ width=250 }
 
 1. 在页面设置，勾选自定义
-   ![](/public/page/页面设置导航栏自定义.png){ width=350 }
+   ![](/public/page/页面设置导航栏自定义.png){ width=250 }
 
 2. 在 组件 1 -> 导航组件 -> 自定义导航栏，找到拖进页面中。
-   ![](/public/page/自定义导航栏组件.png){ width=350 }
+   ![](/public/page/自定义导航栏组件.png){ width=250 }
 
 ## TabBar 页面
 
