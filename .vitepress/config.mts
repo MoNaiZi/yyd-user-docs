@@ -60,16 +60,12 @@ export default defineConfig({
               // { text: '自定义组件', link: '/docs/compoents/customize', }
             ]
           },
+          {
+            text: '组件样式', link: '/docs/compoents/style',
+          },
         ]
       },
-      {
-        text: '模板',
-        collapsed: false,
-        items: [
-          { text: '简介', link: '/docs/template/start', },
-          // { text: '模板市场', link: '', },
-        ]
-      },
+
       {
         text: '页面',
         collapsed: false,
@@ -96,6 +92,14 @@ export default defineConfig({
         items: [
           { text: '快速了解网络接口', link: '/docs/httpApi/start' },
           // { text: '网络接口管理', link: '/docs/httpApi/manage' },
+        ]
+      },
+      {
+        text: '模板',
+        collapsed: false,
+        items: [
+          { text: '简介', link: '/docs/template/start', },
+          // { text: '模板市场', link: '', },
         ]
       },
       {
