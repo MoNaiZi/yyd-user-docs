@@ -34,7 +34,7 @@ outline: deep
    ![](/public/materialCenter/加入图标到项目.png){ width=250 }
 
 7. 来到图标项目页
-   ![](/public/materialCenter/自动跳到项目界面.png){ width=650 }
+   ![](/public/materialCenter/自动跳到项目界面.png){ width=750 }
 
 8. **点击项目设置，将自己的项目按照红框如下配置。然后点保存**
 
@@ -44,7 +44,9 @@ outline: deep
 ![](/public/materialCenter/编辑项目，把自己的项目按照红框设置.png){ width=450 }
 
 ::: warning 注意
-如果勾选了彩色，就不能更改颜色了，不勾选彩色的话，导入进优易搭平台使用就会是单色
+如果勾选了彩色，就不能更改颜色了，不勾选彩色的话，导入进优易搭平台使用就会是单色。
+
+建议彩色的图标放一个项目，单色的放一个项目。
 :::
 
 9. 点击在线链接去复制图标样式
