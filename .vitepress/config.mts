@@ -95,6 +95,13 @@ export default defineConfig({
         ]
       },
       {
+        text: '素材库',
+        collapsed: false,
+        items: [
+          { text: '字体图标', link: '/docs/materialCenter/icon-font', },
+        ]
+      },
+      {
         text: '模板',
         collapsed: false,
         items: [
@@ -110,6 +117,7 @@ export default defineConfig({
           { text: '导出源码打包', link: '/docs/build/export-code', }
         ]
       },
+
       {
         text: '其它',
         collapsed: false,
