@@ -45,7 +45,7 @@ AI 助手可以快速制作页面，还可以使不懂程序开发的人员，�
 
 ##### 导入页面
 
-使用 <a href="https://www.doubao.com/chat/" target="_blank">豆包</a> 生成精美的 HTML 页面原型图。
+使用 <a href="https://www.doubao.com/chat/" target="_blank">豆包</a> 一键生成精美 HTML 页面原型。再将代码复制到 AI 助手的导入页面，轻松完成页面搭建。
 
 <!-- ::: warning 注意
 目前 AI 对话里面暂不支持运行 HTML 页面（虽然它有运行两个字），请导入优易搭平台查看
