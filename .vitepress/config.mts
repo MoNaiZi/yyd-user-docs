@@ -122,6 +122,7 @@ export default defineConfig({
         text: '其它',
         collapsed: false,
         items: [
+          { text: '应用文件', link: '/docs/other/appFiles', },
           { text: '快捷键', link: '/docs/other/shortcutkeys', },
         ]
       },
