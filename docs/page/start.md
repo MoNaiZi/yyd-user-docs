@@ -233,9 +233,9 @@ onShow(){
 
 - 返回时：新页销毁（onUnload），上一个页面重新 onShow。
 
-## 看完了还是不懂这么用？
+<!-- ## 看完了还是不懂这么用？
 
-不知道该用哪种页面跳转？生命周期记不住？ 👉 请查看<a href="/docs/docs/base/ai-helper" target="_blank" rel="noopener noreferrer"> 优易搭助手</a>。让 AI 来帮你。
+不知道该用哪种页面跳转？生命周期记不住？ 👉 请查看<a href="/docs/docs/base/ai-helper" target="_blank" rel="noopener noreferrer"> 优易搭助手</a>。让 AI 来帮你。 -->
 
 ::: tip 建议
 还是先要了解一下生命周期，页面跳转，理解原理，才能真正走得更远。
