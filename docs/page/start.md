@@ -77,28 +77,27 @@ H5
 缺点：没有原生的性能好，差距很大，建议还是用原生。
 :::
 
-<!-- ## 页面跳转
-
-工作流，
-
-![](/public/data/工作流/页面跳转节点介绍.png){ width=550 } -->
-
-<!--
 ## 页面跳转
 
-页面跳转主要有几种方式，每个适用的场景不一样
+<a href="/docs/docs/base/workflow" target="_blank" rel="noopener noreferrer">工作流</a>中的页面跳转。使用工作流就可忽略下面的代码写法。
 
-### 1. navigateTo
+![](/public/data/工作流/页面跳转节点介绍.png){ width=550 }
+
+页面跳转方式主要有以下几种方式，每个适用的场景不一样
+
+### 1. 跳转页面 (navigateTo)
 
 👉 保留当前页面，跳转到一个新页面。
 
-::: details 🔄 生命周期执行：
+::: tip 🔄 生命周期执行：
 
 - 当前页：隐藏（onHide）
 - 新页面：创建（onLoad） → 显示（onShow） → 创建完（onReady）
 - 返回时：新页面 卸载（onUnload） → 原页面 显示（onShow）
 
 :::
+
+::: details 代码写法
 
 ```js
 //在起始页面跳转到 test 页面并传递参数
@@ -115,16 +114,20 @@ onLoad(options) {
 }
 ```
 
-### 2. redirectTo
+:::
+
+### 2. 关闭当前页面，跳转到新页面 (redirectTo)
 
 👉 关闭当前页面，跳转到新页面。
 
-::: details 🔄 生命周期执行：
+::: tip 🔄 生命周期执行：
 
 - 当前页：卸载（onUnload）
 - 新页面：创建（onLoad） → 显示（onShow） → 创建完（onReady）
 
 :::
+
+::: details 代码写法
 
 ```js
 uni.redirectTo({
@@ -132,16 +135,20 @@ uni.redirectTo({
 });
 ```
 
-### 3. reLaunch
+:::
+
+### 3. 关闭所有页面，跳转到新页面 (reLaunch)
 
 👉 关闭所有页面，重新打开一个页面。常用于 退出登录 → 回到首页。
 
-::: details 🔄 生命周期执行：
+::: tip 🔄 生命周期执行：
 
 - 当前页：卸载（onUnload）
 - 新页面：创建（onLoad） → 显示（onShow） → 创建完（onReady）
 
 :::
+
+::: details 代码写法
 
 ```js
 uni.reLaunch({
@@ -149,11 +156,13 @@ uni.reLaunch({
 });
 ```
 
-### 4. switchTab
+:::
 
-👉 跳转到 tabBar 页面。
+### 4. 跳转到底部栏页面 (switchTab)
 
-::: details 🔄 生命周期执行：
+👉 跳转到原生 tabBar(底部栏) 页面。
+
+::: tip 🔄 生命周期执行：
 
 - 当前页：隐藏（onHide）
 - 新 tab 页
@@ -163,24 +172,30 @@ uni.reLaunch({
 
 :::
 
+::: details 代码写法
+
 ```js
 uni.switchTab({
   url: "/pages/home/home",
 });
 ```
 
+:::
+
 注意： 不能携带参数。
 
-### 5. navigateBack
+### 5. 返回上一页 (navigateBack)
 
 👉 返回上一个或多个页面。
 
-::: details 🔄 生命周期执行：
+::: tip 🔄 生命周期执行：
 
 - 当前页：卸载（onUnload）
 - 新页面：显示（onShow）
 
 :::
+
+::: details 代码写法
 
 ```js
 // 默认返回上一个页面
@@ -216,9 +231,11 @@ onShow(){
 
 ```
 
+:::
+
 ---
 
-📌 总结选择：
+<!-- 📌 总结选择：
 
 - 普通页面跳转 → navigateTo
 
@@ -228,7 +245,7 @@ onShow(){
 
 - 跳 tabBar 页 → switchTab
 
-- 返回 → navigateBack
+- 返回 → navigateBack -->
 
 📖 生命周期总结口诀：
 
@@ -242,4 +259,4 @@ onShow(){
 
 ::: tip 建议
 还是先要了解一下生命周期，页面跳转，理解原理，才能真正走得更远。
-::: -->
+:::
