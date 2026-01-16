@@ -42,7 +42,7 @@ outline: deep
 👉 数据满足某个条件，就显示；否则隐藏
 （比如库存为 0，就不显示“购买”按钮）
 
-🔹 5. 动作绑定（事件）
+🔹 5. <a href="/docs/docs/compoents/event" target="_blank" rel="noopener noreferrer">动作绑定（事件）</a>
 👉 用户点、滑、输，组件根据数据变化做出反应
 （比如点击按钮后修改数据，页面跟着更新）
 

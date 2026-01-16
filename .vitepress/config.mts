@@ -64,6 +64,9 @@ export default defineConfig({
           {
             text: '组件样式', link: '/docs/compoents/style',
           },
+          {
+            text: '组件事件', link: '/docs/compoents/event',
+          },
         ]
       },
 
