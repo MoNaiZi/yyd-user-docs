@@ -30,7 +30,9 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '优易搭能帮我做什么', link: '/docs/base/blurb' },
-          { text: 'AI 助手', link: '/docs/base/ai-helper' },
+          {
+            text: '视频教程', link: '/docs/video/start',
+          },
           { text: '工作流', link: '/docs/base/workflow' },
           {
             text: '5分钟快速上手', link: '/docs/base/get-started',
@@ -39,7 +41,7 @@ export default defineConfig({
             //   { text: '主题定制', link: '/guide/theme' }
             // ]
           },
-
+          { text: 'AI 助手', link: '/docs/base/ai-helper' },
           { text: '遇到问题怎么办', link: '/docs/base/problem' }
         ]
       },
