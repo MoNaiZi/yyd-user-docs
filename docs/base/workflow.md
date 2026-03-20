@@ -63,7 +63,7 @@ outline: deep
 
 ##### 7. 支付
 
-<a href="https://uniapp.dcloud.net.cn/api/plugins/payment.html" target="_blank" rel="noopener noreferrer">方便调用微信小程序/支付宝支付接口。</a>
+方便调用微信小程序/支付宝<a href="https://uniapp.dcloud.net.cn/api/plugins/payment.html" target="_blank" rel="noopener noreferrer">支付接口</a>。
 
 ##### 8. 系统能力
 
