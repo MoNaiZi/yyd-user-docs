@@ -33,9 +33,9 @@ outline: deep
 
 2. 自定义数据 -->
 
-##### 2. 逻辑块
+##### 2. 智能逻辑
 
-用于将文字描述转换为业务代码。
+用于将文字描述转换为业务代码。例如：处理某个数据，遍历数据，把数据赋给页面数据等等。
 
 ::: details 更多说明
 
@@ -52,6 +52,34 @@ outline: deep
 ##### 4. 网络接口
 
 选择网络接口，生成对应的网络请求代码。
+
+##### 5. 条件分支
+
+根据不同条件执行不同的分支。例如：2>1 就执行符合条件的流程，否则就执行不符合的流程。
+
+##### 6. 结束流程
+
+用于结束流程整个工作流(不是结束某一个分支)，并且返回数据。
+
+##### 7. 支付
+
+<a href="https://uniapp.dcloud.net.cn/api/plugins/payment.html" target="_blank" rel="noopener noreferrer">方便调用微信小程序/支付宝支付接口。</a>
+
+##### 8. 系统能力
+
+用于使用 <a href="https://uniapp.dcloud.net.cn/api/ui/prompt.html" target="_blank" rel="noopener noreferrer">uniapp api</a>
+
+比如：
+
+弹提示
+
+显示加载中
+
+获取位置
+
+打开相机
+
+这些都属于系统能力。
 
 ### 工作流的使用技巧
 
