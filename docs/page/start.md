@@ -67,7 +67,7 @@ H5
 
 适合展示常用功能入口。
 
-怎么添加？请查看<a href="/docs/docs/page/manage" target="_blank" rel="noopener noreferrer">页面管理</a>
+怎么添加？请查看<a href="/docs/docs/page/manage.html" target="_blank" rel="noopener noreferrer">页面管理</a>
 
 ::: tip 自定义底部栏
 上面添加的方式是叫原生底部栏，还可以自定义底部栏添加方式：在 组件 1 -> 导航组件 -> 自定义底部栏，找到拖进页面中。
@@ -79,7 +79,7 @@ H5
 
 ## 页面跳转
 
-<a href="/docs/docs/base/workflow" target="_blank" rel="noopener noreferrer">工作流</a>中的页面跳转。使用工作流就可忽略下面的代码写法。
+<a href="/docs/docs/base/workflow.html" target="_blank" rel="noopener noreferrer">工作流</a>中的页面跳转。使用工作流就可忽略下面的代码写法。
 
 ![](/public/data/工作流/页面跳转节点介绍.png){ width=550 }
 

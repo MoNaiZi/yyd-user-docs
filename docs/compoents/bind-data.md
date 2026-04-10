@@ -44,7 +44,7 @@ outline: deep
 👉 数据满足某个条件，就显示；否则隐藏
 （比如库存为 0，就不显示“购买”按钮）
 
-🔹 5. <a href="/docs/docs/compoents/event" target="_blank" rel="noopener noreferrer">动作绑定（事件）</a>
+🔹 5. <a href="/docs/docs/compoents/event.html" target="_blank" rel="noopener noreferrer">动作绑定（事件）</a>
 👉 用户点、滑、输，组件根据数据变化做出反应
 （比如点击按钮后修改数据，页面跟着更新）
 
@@ -57,7 +57,7 @@ outline: deep
 
 ![](/public/data/定义好数据.png){ width=300 }
 不管是绑定属性/样式/组件循环/条件显示，第一步都是先定义好数据。
-详细使用：<a href="/docs/docs/data/start" target="_blank" rel="noopener noreferrer">数据</a>
+详细使用：<a href="/docs/docs/data/start.html" target="_blank" rel="noopener noreferrer">数据</a>
 
 ##### 组件属性绑定
 
