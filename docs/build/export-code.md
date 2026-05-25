@@ -4,7 +4,40 @@ outline: deep
 
 # 导出源码打包
 
-### 第一步 在优易搭导出源码
+### 第一步 在优易搭先配置好
+
+::: warning 注意
+
+这里以微信小程序作为示例，没看过[上线小程序示例](/docs/build/pack)，请先去阅读。
+
+:::
+
+- 1. 找到应用文件
+     ![](/public/build/找到应用文件功能png.png){ width=400 }
+
+- 2. 应用文件中填入小程序 ID (AppID)
+     ![](/public/build/应用文件中填入小程序ID.png){ width=400 }
+
+<details>
+    <summary>（点击展开）配置说明</summary>
+
+这里简单说明一下，更多配置可以直接把配置代码复制给豆包帮你解答
+
+| 配置名      | 对应平台        |
+| ----------- | --------------- |
+| mp-weixin   | 微信小程序      |
+| mp-alipay   | 支付宝小程序    |
+| mp-baidu    | 百度小程序      |
+| mp-toutiao  | 抖音/头条小程序 |
+| mp-lark     | 飞书小程序      |
+| mp-qq       | QQ 小程序       |
+| mp-kuaishou | 快手小程序      |
+| mp-xhs      | 小红书小程序    |
+| mp-jd       | 京东小程序      |
+
+</details>
+
+**然后就可以导出源码**
 
 ### 第二步使用 HBuilderX 导入项目打包
 
@@ -58,3 +91,5 @@ outline: deep
 ### 第三步 打包成功
 
 ![](/public/export-code/build-success.png)
+
+### 接下来的流程请参考[上线小程序示例](/docs/build/pack)
