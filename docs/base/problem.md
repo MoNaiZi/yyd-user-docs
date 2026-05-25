@@ -9,6 +9,8 @@ outline: deep
 
 # 平台 bug 问题 和 意见反馈
 
+文档看不明白可以使用：<a href="https://chatglm.cn/share/oFlmEIGx" target="_blank" rel="noopener noreferrer">优易搭问答助手</a> 来帮忙解答。
+
 客服微信号：shiyan3101011（添加请注明来自优易搭和原因，否则不予通过）
 
 ## uniapp api 支持程度
