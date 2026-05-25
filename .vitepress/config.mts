@@ -119,7 +119,7 @@ export default defineConfig({
         text: '打包/导出',
         collapsed: false,
         items: [
-          { text: '打包应用', link: '/docs/build/pack', },
+          { text: '打包/发布示例', link: '/docs/build/pack', },
           { text: '导出源码打包', link: '/docs/build/export-code', }
         ]
       },
